@@ -6,7 +6,8 @@ public class run {
         Scanner s = new Scanner(System.in);
 
         do {
-            System.out.print("1. Linear Queue\n2. Circular Queue\n");
+            System.out.print("1. Linear Queue\n2. Circular Queue");
+            System.out.print("\nexit: Exit\n");
             choice = s.nextLine();
 
             switch (choice) {

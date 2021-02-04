@@ -68,7 +68,7 @@ public class LinearQueue extends IntegerArray {
 
                     for (int i = 0; i < integerArray.length; i++) {
                         if (i == back && i == front)
-                            System.out.format("%7s", "BP/FP");
+                            System.out.format("%7s", "   BP/FP");
                         else if (i == back)
                             System.out.format("%7s", "BP");
                         else if (i == front)
